@@ -1,0 +1,7 @@
+# requirement libraries for this project
+
+pandas
+numpy
+seaborn
+matplotlib
+pyspark
