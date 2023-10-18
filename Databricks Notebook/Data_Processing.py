@@ -1,5 +1,5 @@
 # Databricks notebook source
-# MAGIC %run "/Users/akashpandey15071996@outlook.com/Data ingention from Azure blob storage"
+# MAGIC %run "/Repos/akashpandey15071996@outlook.com/end-to-end-azurePipeline-Hotel-Booking-project-with-PySpark/Databricks Notebook/Data ingention from Azure blob storage"
 
 # COMMAND ----------
 
