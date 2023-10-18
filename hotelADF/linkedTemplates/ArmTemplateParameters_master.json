@@ -11,6 +11,9 @@
 		"AzureDataLakeStorage_properties_typeProperties_url": {
 			"value": "https://project99110.dfs.core.windows.net/"
 		},
+		"AzureKeyVault_key_properties_typeProperties_baseUrl": {
+			"value": "https://keyvaultsecret.vault.azure.net/"
+		},
 		"containerUri": {
 			"value": ""
 		},
