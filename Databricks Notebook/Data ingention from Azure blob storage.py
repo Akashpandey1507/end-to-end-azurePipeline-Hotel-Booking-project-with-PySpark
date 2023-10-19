@@ -5,9 +5,9 @@
 # COMMAND ----------
 
 # Getting all details from Azure
-storage_account_name = 'project99110'
-storage_account_access_key = '4BfiXnNzQuMJD/xPYa8Q9TlyOKcYzt86OMZ3xFBNuj5DZzppzZAVby4xN/cT/cXRy+J345wHXTpy+AStOtjdig=='
-blob_container = 'hotel-datasets'
+storage_account_name = 'enter the storage name'
+storage_account_access_key = 'Enter the keys'
+blob_container = 'enter the container name'
 
 # COMMAND ----------
 
