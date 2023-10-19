@@ -126,3 +126,12 @@ df = df.dropna()
 # COMMAND ----------
 
 df.count()
+
+# COMMAND ----------
+
+# Loading the datasets
+datasets = spark.read.csv(
+                                "wasbs://hotel-datasets@project99110.blob.core.windows.net/hotel_bookings_raw.csv.zip/hotel_bookings_raw.csv",
+                                header=True,
+                                inferSchema=True
+                          )
