@@ -16,15 +16,39 @@ df.count()
 
 # COMMAND ----------
 
-df.groupBy(col("hotel")).count().show()
+# MAGIC %md
+# MAGIC
+# MAGIC # Descriptive Statistics:
+# MAGIC
+# MAGIC * What are the summary statistics for numerical columns
 
 # COMMAND ----------
 
-df.groupBy(col("market_segment")).count().show()
+df.describe().display()
 
 # COMMAND ----------
 
-df.groupBy(col("market_segment")).count().show()
+# MAGIC %md
+# MAGIC
+# MAGIC # Categorical Features:
+
+# COMMAND ----------
+
+df.groupBy(col("hotel")).count().display()
+
+# COMMAND ----------
+
+df.groupBy(col("arrival_date_month")).count().display()
+
+# COMMAND ----------
+
+# MAGIC %md
+# MAGIC
+# MAGIC # What is the distribution of the "is_canceled" column, and is it related to cancellations or other variables?
+
+# COMMAND ----------
+
+df.groupBy(col("is_canceled")).count().display()
 
 # COMMAND ----------
 
