@@ -60,4 +60,30 @@ df.groupBy(col("is_canceled")).count().display()
 
 # COMMAND ----------
 
-df.display()
+# MAGIC %md
+# MAGIC # Can you identify trends or patterns in the dataset based on the arrival_date_year and arrival_date_month columns?
+
+# COMMAND ----------
+
+df.groupBy(col("arrival_date_year"),col( "arrival_date_month")).count().show()
+
+# COMMAND ----------
+
+df.groupBy(col('arrival_date_month')).count().show()
+
+# COMMAND ----------
+
+df.groupBy(col("arrival_date_year")).count().show()
+
+# COMMAND ----------
+
+# MAGIC %md
+# MAGIC
+# MAGIC # Guest Demographics:
+# MAGIC
+# MAGIC * What can you infer about the demographics of guests based on columns like adults, children, and babies?
+# MAGIC * Are there any interesting relationships or correlations between these variables?
+
+# COMMAND ----------
+
+df.groupBy(col("adults")).count().show()
