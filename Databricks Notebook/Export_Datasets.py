@@ -5,3 +5,7 @@
 
 # Specify the write mode as "overwrite"
 df.write.mode("overwrite").csv("wasbs://hotel-datasets@project99110.blob.core.windows.net/processed_datasets/")
+
+# COMMAND ----------
+
+df.show()
