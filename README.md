@@ -7,7 +7,8 @@
 
 # **Pipline on Databricks**
 
-![image](https://github.com/Akashpandey1507/end-to-end-azurePipeline-Hotel-Booking-project-with-PySpark/assets/124170332/d27ae446-6aae-4d94-b587-fff61977787d)
+![image](https://github.com/Akashpandey1507/end-to-end-azurePipeline-Hotel-Booking-project-with-PySpark/assets/124170332/800d4d82-2794-4df5-9c9d-5528b95b4a54)
+
 
 
 
